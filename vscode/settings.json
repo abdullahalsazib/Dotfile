@@ -1,0 +1,98 @@
+{
+  "editor.fontFamily": "'Monaspace Neon', monospace",
+  // "editor.inlineSuggest.fontFamily": "'Monaspace Radon', monospace",
+  "editor.fontSize": 15.4,
+  "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
+  "editor.fontWeight": "400",
+  "editor.wordWrap": "on",
+  // for gutter line
+  // "javascript.updateImportsOnFileMove.enabled": "always",
+  // "editor.guides.bracketPairs": true,
+  "editor.lineHeight": 1.7,
+  // end of my setting
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  // cursor
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.fixAll.tslint": "always",
+    "source.organizeImports": "always"
+  },
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
+  // "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+  "workbench.iconTheme": "vscode-icons",
+  "window.commandCenter": false,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "window.customTitleBarVisibility": "windowed",
+  "mdb.mcp.server": "disabled",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.guides.bracketPairsHorizontal": true,
+  "database-client.autoSync": true,
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.fontSize": 12,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnPaste": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.confirmSync": false,
+  "workbench.secondarySideBar.defaultVisibility": "visible",
+  "gitlens.graph.minimap.additionalTypes": [
+    "localBranches",
+    "stashes",
+    "pullRequests",
+    "remoteBranches",
+    "tags"
+  ],
+  "editor.showFoldingControls": "always",
+  "editor.renderLineHighlight": "all",
+  "workbench.layoutControl.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "workbench.colorTheme": "Learn with Sumit Official Theme",
+  "emojisense.languages": {
+    "python": true,
+    "markdown": true,
+    "plaintext": {
+      "markupCompletionsEnabled": false,
+      "emojiDecoratorsEnabled": false
+    },
+    "scminput": true,
+    "git-commit": true,
+    "tsx": true,
+    "py": true
+  },
+  "workbench.panel.showLabels": false,
+  "editor.mouseWheelZoom": true,
+  "window.zoomLevel": 1.8,
+  "notebook.cellFocusIndicator": "border",
+  "notebook.compactView": false,
+  "terminal.integrated.inheritEnv": false,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1"
+}
