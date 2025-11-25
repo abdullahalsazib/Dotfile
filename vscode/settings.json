@@ -1,14 +1,22 @@
 {
-  "editor.fontFamily": "'Monaspace Neon', monospace",
+  // "editor.fontFamily": "'Monaspace Neon', monospace",
+  // "editor.fontFamily": "'Monaspace Argon', monospace",
+  // "editor.fontFamily": "'Monaspace Xenon', monospace",
+  // "editor.fontFamily": "'Monaspace Krypton', monospace",
+  // "editor.fontFamily": "'Monaspace Radon', monospace",
   // "editor.inlineSuggest.fontFamily": "'Monaspace Radon', monospace",
-  "editor.fontSize": 15.4,
+  "editor.fontFamily": "'Fira Code', 'Operator Mono', monospace",
+  // "editor.fontFamily": "SF Mono",
+  // for Windows
+  "editor.fontSize": 14.4,
   "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
-  "editor.fontWeight": "400",
+  "editor.fontWeight": "460",
   "editor.wordWrap": "on",
+  "workbench.colorTheme": "Default Dark+",
   // for gutter line
   // "javascript.updateImportsOnFileMove.enabled": "always",
   // "editor.guides.bracketPairs": true,
-  "editor.lineHeight": 1.7,
+  "editor.lineHeight": 1.8,
   // end of my setting
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -42,12 +50,11 @@
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
   // "workbench.colorTheme": "Community Material Theme Darker High Contrast",
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "file-icons-mac",
   "window.commandCenter": false,
   "git.enableSmartCommit": true,
   "git.autofetch": true,
   "window.customTitleBarVisibility": "windowed",
-  "mdb.mcp.server": "disabled",
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "editor.guides.bracketPairsHorizontal": true,
@@ -59,22 +66,11 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "git.confirmSync": false,
   "workbench.secondarySideBar.defaultVisibility": "visible",
-  "gitlens.graph.minimap.additionalTypes": [
-    "localBranches",
-    "stashes",
-    "pullRequests",
-    "remoteBranches",
-    "tags"
-  ],
   "editor.showFoldingControls": "always",
   "editor.renderLineHighlight": "all",
   "workbench.layoutControl.enabled": false,
-  "chat.commandCenter.enabled": false,
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
-  },
+
   "github.copilot.nextEditSuggestions.enabled": true,
-  "workbench.colorTheme": "Learn with Sumit Official Theme",
   "emojisense.languages": {
     "python": true,
     "markdown": true,
@@ -89,10 +85,36 @@
   },
   "workbench.panel.showLabels": false,
   "editor.mouseWheelZoom": true,
-  "window.zoomLevel": 1.8,
   "notebook.cellFocusIndicator": "border",
   "notebook.compactView": false,
   "terminal.integrated.inheritEnv": false,
-  "gitlens.ai.model": "vscode",
-  "gitlens.ai.vscode.model": "copilot:gpt-4.1"
+  "explorer.confirmPasteNative": false,
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.pdf": "default"
+  },
+  "window.zoomLevel": 1,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "chat.mcp.gallery.enabled": true,
+  "diffEditor.codeLens": true,
+  "window.confirmSaveUntitledWorkspace": false,
+  "debug.gutterMiddleClickAction": "none",
+  "editor.renderLineHighlightOnlyWhenFocus": true,
+  // "workbench.editor.showTabs": "none",
+  "editor.formatOnType": true,
+  "workbench.productIconTheme": "macos-modern",
+  // macOS Modern Tweaks
+  "editor.tabSize": 2,
+  "window.titleBarStyle": "custom",
+  "chat.tools.terminal.autoApprove": {
+    "/^cd frontend && npm run build$/": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "npx": true
+  },
+  "workbench.colorCustomizations": {
+    "terminal.background": "#00000000"
+  },
+  "workbench.settings.applyToAllProfiles": ["workbench.colorCustomizations"]
 }
